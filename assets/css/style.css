@@ -248,3 +248,20 @@ form button:hover {
 .footer-dark .socials a:hover {
     color: #ffffff;
 }
+
+/* Fix header being cut off */
+.header-section {
+    padding-top: 140px;  /* Push header content below navbar */
+    padding-bottom: 80px;
+}
+
+/* Ensure profile photo displays fully */
+.profile-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fff;
+    margin-top: 20px;
+}
+
