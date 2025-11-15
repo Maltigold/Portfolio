@@ -265,3 +265,20 @@ form button:hover {
     margin-top: 20px;
 }
 
+/* Fix header being cut off */
+.header-section {
+    padding-top: 160px !important;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+/* Ensure profile photo displays fully */
+.profile-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fff;
+    margin-top: 20px;
+}
+
