@@ -292,3 +292,14 @@ form button:hover {
     padding: 10px;
 }
 
+/* Make portfolio images show fully and not cut */
+.portfolio-thumb {
+    width: 100%;
+    height: 230px;   /* fits the card nicely */
+    object-fit: contain;
+    background-color: #0b1e33;
+    border-radius: 12px;
+    padding: 8px;
+}
+
+
