@@ -282,3 +282,13 @@ form button:hover {
     margin-top: 20px;
 }
 
+/* Ensure portfolio images show fully */
+.portfolio-thumb {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    background-color: #0b1e33;
+    border-radius: 12px;
+    padding: 10px;
+}
+
